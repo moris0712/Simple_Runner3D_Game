@@ -1,7 +1,8 @@
 # Simple_Runner3D_Game
 
 사용엔진: Unreal Engine 4.27  
-제작기간: 2주  
+제작기간: 2주 (2021.11.15 ~ 2021.11.30)  
+게임플레이: http://naver.me/FnnNiUCI
 
 ---
 
@@ -9,7 +10,7 @@
 + 게임 설명
 + 게임 Stage Base
 + 게임 Stage 종류
-+ 장애물 종류
++ 프로젝트 후 자가 피드백
 ---
 
 ## 게임설명
@@ -68,4 +69,12 @@
 |||
 |:-:|:---|
 |![disappear_Floor](./ReadMeImg/disappear_Floor.gif)|![disappear_Floor_Stage](./ReadMeImg/disappear_Floor_Stage.PNG)|
-|![disapeear](./ReadMeImg/disapeear.PNG) | z축으로 상승, 하강하는 사각기둥으로 이루어진 스테이지|
+|![disapeear](./ReadMeImg/disapeear.PNG) | 밟았을때 1초후에 사라지는 발판으로 이루어진 스테이지 <br/> 밟았을때를 인식하기위해 발판보다 살짝 작은 Collider를 발판위에 부착|
+
+---
+
+## 자가 피드백
+
+|||
+|:-:|:---|
+|![SpwanActor](./ReadMeImg/SpawnActor.PNG)|당시에 오브젝트 풀 (Object Pool)이라는 개념자체를 몰랐었는데, 같은 오브젝트를 계속 사용하고 반환하는 구조 상 오브젝트 풀을 구현하였으면 순간적인 프레임드랍이 나타나지 않았을 것이다.|
