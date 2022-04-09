@@ -2,6 +2,7 @@
 
 사용엔진: Unreal Engine 4.27  
 제작기간: 2주 (2021.11.15 ~ 2021.11.30)  
+게임플레이 영상: https://youtu.be/UtTcCEvRuSE  
 게임다운: http://naver.me/FnnNiUCI
 
 ---
