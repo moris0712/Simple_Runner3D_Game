@@ -29,8 +29,9 @@
 
 |||
 |:-:|:---|
-![normal](./ReadMeImg/Stage_Base.png)| Create Trigger - 캐릭터와 충돌 시 Spwan Location위치에 다음 랜덤 스테이지가 생성된다. <br/> Destroy Trigger - 캐릭터와 충돌 시 현재 스테이지를 삭제한다. 
+![normal](./ReadMeImg/Stage_Base.png)| 스테이지의 기본 상위 Base이며 모든 장애물 맵이 Base를 상속받아서 만들어 진다. <br/> Create Trigger - 캐릭터와 충돌 시 Spwan Location위치에 다음 랜덤 스테이지가 생성된다.  <br/> Destroy Trigger - 캐릭터와 충돌 시 현재 스테이지를 삭제한다.|
 ---
+
 ## Stage 종류  
   
 + ### 1. Spike Obstacle  
