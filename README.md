@@ -47,7 +47,7 @@
   |||
   |:-:|:---|
   |![xyz_Move_Floor](./ReadMeImg/xyz_Move_Floor.gif)|![xyz_Move_Stage](./ReadMeImg/xyz_Move_Floor_Stage.PNG)|
-  |![move_Floor](./ReadMeImg/move_Floor.PNG) | 각각 x축, y축, z축으로 이동하고 속력이 다른 2개의 발판으로 이루어진 스테이지|
+  |![move_Floor](./ReadMeImg/move_Floor.PNG) | 위치 = DelatTime * Speed로 이루어져있으며 각각 x축, y축, z축으로 이동하고 속력이 다른 발판으로 이루어진 스테이지|
 
 
 * ### 3. xy Scale Floor Stage  
@@ -55,7 +55,7 @@
   |||
   |:-:|:---|
   |![xy_Scale_Floor](./ReadMeImg/xy_Scale_Floor.gif)|![xy_Scale_Stage](./ReadMeImg/xy_Scale_Floor_Stage.PNG)|
-  |![scale_Floor](./ReadMeImg/scale_Floor.PNG) | x, y가 일정한 크기로 줄어들었다가 커지는 발판으로 이루어진 스테이지|
+  |![scale_Floor](./ReadMeImg/scale_Floor.PNG) | 크기 = DelatTime * Speed 로 이루어져있으며 x, y의 크기가 일정하게 줄어들었다가 커지는 발판으로 이루어진 스테이지|
 
 
 * ### 4. z Move Pillar Stage  
@@ -63,7 +63,7 @@
   |||
   |:-:|:---|
   |![z_Move_Pillar](./ReadMeImg/z_Move_Pillar.gif)|![z_Move_Pillar_Stage](./ReadMeImg/z_Move_Pillar_Stage.PNG)|
-  |![z_move_Pillar](./ReadMeImg/z_move_Pillar.PNG) | z축으로 상승, 하강하는 사각기둥으로 이루어진 스테이지|
+  |![z_move_Pillar](./ReadMeImg/z_move_Pillar.PNG) | xyz MoveFloor 스크립트 기반이며 z축으로만 하강했다가 상승하는 기둥으로 이루어진 스테이지 |
 
 
 * ### 5. Disappear Floor Stage
@@ -71,7 +71,7 @@
   |||
   |:-:|:---|
   |![disappear_Floor](./ReadMeImg/disappear_Floor.gif)|![disappear_Floor_Stage](./ReadMeImg/disappear_Floor_Stage.PNG)|
-  |![disapeear](./ReadMeImg/disapeear.PNG) | 밟았을때 1초후에 사라지는 발판으로 이루어진 스테이지 <br/> 밟았을때를 인식하기위해 발판보다 살짝 작은 Collider를 발판위에 부착|
+  |![disapeear](./ReadMeImg/disapeear.PNG) | 캐릭터와 충돌 하였을 때 1초 타이머를 트리거 시켜 파괴하는 발판으로 이루어진 스테이지 <br/> 밟았을때만을 인식하기위해 발판보다 작은 콜라이더를 발판위에 부착  |
 
 ---
 
